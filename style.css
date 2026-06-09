@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing:border-box;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid #e9e9f3 ;
+}
+
+header .logo img{
+    height: 36px;
+    width: 53px; 
+    margin-left: 20px;     
+}
+
+
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .3px;
+    padding: 26px 0px;
+    
+    border-bottom: 5px solid #ffff ;
+
+}
+
+.nav_bar a:hover{
+    border-bottom: 5px solid  #f00e43 ;
+}
+
+.nav_bar a sup{
+    color: lab(57.94% 73.07 20.26);
+
+}
+
+.search_box{
+    display: flex;
+    flex-grow: 1;
+    background-color: #f5f5f6;
+    border: 0px solid #f5f5f6;
+    height: 30px;
+    font-size: 14px;
+    color: #696e79;
+    min-width:200px;
+    width: 30%;
+    border-radius: 4px;
+}
+
+.search_box .search_icon{
+    /* background-color: #f5f5f6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.search_bar{
+    background-color: #f5f5f6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #696e79;
+    flex-grow: 1;
+    border-radius: 0 4px 4px 0;
+    
+}
+
+.action_icon{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+    width: 200px;
+    margin: 3%;
+}
+
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner_container{
+    width: 85%;
+    margin: 12px auto;
+}
+
+.banner_image{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.category_images{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.offer_images{
+    height: 272px;
+    width: 202px;
+    flex-shrink: 0;
+}
+
+.shop_category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.shop_category_heading img{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 30px auto ;
+    margin-bottom: 15px;
+}
+
+.shop_category{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop_category_images{
+    height: 242px;
+    width: 185px;
+    margin: 11px;
+}
+
+.level_1{
+    display: flex;  
+    width: 70%;
+     margin: 50px auto;
+     justify-content: space-around;
+}
+
+.level_1 p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.level_1 a{
+    text-decoration: none;
+    color: #5a5858;
+}
+
+.online_shopping{
+    display: flex;
+    flex-direction: column;
+}
+
+.customer_policies{
+    display: flex;
+    flex-direction: column;
+}
+
+.promotion img{
+    width: 139px;
+    height: 42px;
+}
+
+.promotion_icon img{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    margin-top: 2px;
+}
+
+.useful_links{
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.level_2{
+     /* display: flex;   */
+    width: 70%;
+     margin: 50px auto;
+     justify-content: space-around;
+}
+
+.level_2 p{
+     font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.level_2 a{
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.level_3{
+    color: #696b79;
+    margin: 50px auto;
+     width: 70%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #e9e9f3 ;
+}
+
+.level_4{
+    width: 70%;
+     margin: 50px auto;
+     display: flex;
+     justify-content: space-between;
+     
+}
+
+.level_4 .level_4_heading{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.level_4 p{
+     text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.level_4 .telephone{
+    display: flex;
+    float: inline-end;
+
+}
